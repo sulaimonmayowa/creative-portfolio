@@ -32,9 +32,8 @@ export default function TrustBar() {
                 <div className="text-display-lg-mobile font-bold text-on-surface">
                   {stat.target !== null ? (
                     <Counter
-                      target={stat.target}
+                      endValue={stat.target}
                       suffix={stat.suffix || ''}
-                      decimals={stat.decimals || 0}
                     />
                   ) : (
                     'Global'

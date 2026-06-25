@@ -4,7 +4,7 @@ import Icon from '@/components/ui/Icon';
 
 export default function Hero() {
   return (
-    <section className="min-h-screen flex items-center justify-center pt-24 md:pt-32 px-margin-mobile md:px-margin-desktop overflow-hidden">
+    <section className="min-h-screen flex items-center justify-center pt-24 md:pt-32 pb-12 md:pb-0 px-margin-mobile md:px-margin-desktop overflow-hidden">
       <div className="max-w-container-max mx-auto w-full grid grid-cols-1 lg:grid-cols-12 gap-8 md:gap-16 items-center">
         {/* Left Content */}
         <div className="lg:col-span-6 space-y-8">
